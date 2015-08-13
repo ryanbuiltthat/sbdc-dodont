@@ -1,0 +1,49 @@
+{
+  "name": "internship-dos-donts",
+  "description": "Part of the SBDC Internship initiative.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/ryanbuiltthat/internship-dos-donts",
+  "author": {
+    "name": "Ryan Harris",
+    "url": "http://github.com/ryanbuiltthat/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ryanbuiltthat/internship-dos-donts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ryanbuiltthat/internship-dos-donts/issues"
+  },
+  "engines": {
+    "node": ">=0.10"
+  },
+  "scripts": {
+    "test": "grunt assemble"
+  },
+  "devDependencies": {
+    "assemble": "^0.4.42",
+    "grunt": "^0.4.5",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-connect": "^0.8.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-contrib-copy": "^0.5.0",
+    "load-grunt-tasks": "^0.6.0",
+    "time-grunt": "^1.0.0",
+    "assemble-contrib-anchors": "*",
+    "assemble-contrib-permalinks": "*"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/ryanbuiltthat/internship-dos-donts/blob/master/LICENSE-MIT"
+    }
+  ],
+  "keywords": [
+    "assemble",
+    "templates",
+    "handlebars",
+    "site generator",
+    "site builder",
+    "grunt"
+  ]
+}
